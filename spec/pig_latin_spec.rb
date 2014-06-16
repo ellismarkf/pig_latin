@@ -17,4 +17,9 @@ describe PigLatin do
     expect(@test_y1).to eq("ythmrhay")
     expect(@test_y2).to eq("ellowyay")
   end
+
+  it 'knows when a word begins with y' do
+    expect(@test_y2).to eq("ellowyay")
+  end
+
 end
