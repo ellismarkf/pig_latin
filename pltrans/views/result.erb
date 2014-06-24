@@ -1,0 +1,15 @@
+<h1>Igpay Atinlay Anslatortray!</h1>
+<form method="post" action="/translate">
+  <div>
+    <label for="translator">
+      <input id="translator" name="translator" type="text" placeholder="Type here and press enter to translate your word into pig latin!">
+    </label>
+  </div>
+  <div>
+    <label>
+      <input type="submit" value="Translate Text">
+    </label>
+  </div>
+</form>
+<p><%= @translated %></p>
+
